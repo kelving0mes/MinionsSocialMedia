@@ -31,7 +31,6 @@ const userProps = {
 }
 
 
-
 export default function Profile({ navigation, route }: Props) {
   const { userId } = route.params
 

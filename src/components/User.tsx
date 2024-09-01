@@ -13,7 +13,7 @@ export default function User({ source, userSlug, username, userId }: UserProps) 
       <Image source={{ uri: source }} style={styles.userImage} />
       <Text style={styles.username}>{username}</Text>
       <Text style={styles.userSlug}>{userSlug}</Text>
-      <Text>Id: {JSON.stringify(userId)}</Text>
+      <Text>{JSON.stringify(userId)}</Text>
     </View>
   )
 }

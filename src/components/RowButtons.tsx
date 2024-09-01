@@ -2,7 +2,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native"
 
 interface ButtonProps {
     onPress?: () => void
-  }
+}
 
 export default function RowButtons({ onPress }: ButtonProps) {
     return (
